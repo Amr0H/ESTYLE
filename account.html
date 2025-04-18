@@ -1,1 +1,22 @@
+<div class="dashboard">
+  <h1>Welcome to Your Account!</h1>
+  <button id="logout-btn">Logout</button>
+</div>
 
+<script src="scripts.js"></script>
+<script>
+  // Force login if not authenticated
+  firebase.auth().onAuthStateChanged((user) => {
+    if (!user) {
+      window.location.href = "login.html"; // Kick out logged-out users
+    }
+  });
+
+  // Logout Logic
+  document.getElementById("logout-btn").addEventListener("click", () => {
+    firebase.auth().signOut()
+      .then(() => {
+        window.location.href = "login.html";
+      });
+  });
+</script>
