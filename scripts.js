@@ -19,15 +19,3 @@
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
-// Auth State Listener (runs on every page)
-firebase.auth().onAuthStateChanged((user) => {
-  if (user) {
-    // User is logged in
-    document.getElementById("login-link").textContent = "My Account";
-    document.getElementById("login-link").href = "account.html";
-  } else {
-    // User is logged out
-    document.getElementById("login-link").textContent = "Login";
-    document.getElementById("login-link").href = "login.html";
-  }
-});
