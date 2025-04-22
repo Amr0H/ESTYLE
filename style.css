@@ -334,7 +334,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b2.png");
-    min-width: 850px;
+    width: 88vh;
     height: 50vh;
     background-size: cover;
     background-position: center;
