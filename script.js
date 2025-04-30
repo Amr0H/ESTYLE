@@ -18,7 +18,7 @@ if (close) {
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 const coupons = [
-    { code: "Amr", discount: 10, type: 'percentage', description: "10% off your first order" },
+    { code: "AMR", discount: 10, type: 'percentage', description: "10% off your first order" },
     { code: "EST-GUELMIM", discount: 20, type: 'percentage', description: "20% off your entire order" },
     { code: "FIRST-ORDER", discount: 25, type: 'fixed', description: "25 Dhs shipping discount" },
     { code: "AHMED-SABA", discount: 50, type: 'percentage', description: "50% off (demo only)" }
