@@ -48,10 +48,10 @@
 	
 
 	## 📈 	 Méthodologie de Travail
-		- **Processus Agile** : Développement itératif avec feedback continu
-		- **Outils** : GitHub pour le versionnement
-		- **Design** : Approche mobile-first
-
+		Pour ce projet, nous avons adopté une approche agile avec des sprints hebdomadaires pour prioriser les fonctionnalités clés.
+		Chaque membre s'est spécialisé dans un domaine (frontend, JavaScript, design) tout en collaborant via GitHub pour le versionnage
+		et Discord pour la communication. Des revues de code et des tests croisés ont assuré la qualité, tandis que des rétrospectives régulières
+		nous ont permis d’ajuster notre workflow. Cette organisation flexible et transparente a garanti un développement efficace et une cohésion d’équipe.
 	## 🚧 Difficultés Rencontrées
 		1. **Gestion d'état complexe** du panier avec localStorage
 		2. **Validation des formulaires** multi-étapes
